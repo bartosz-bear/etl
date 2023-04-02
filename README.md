@@ -33,7 +33,7 @@ These problems were solves using homogenuity test and applying domain knowledge 
 - 'CHECK FOR MISSING VALUES IN ACCOUNT_ID'
 - 'CHECK IF THERE ARE ANY 'NaN' VALUES IN ANY OTHER COLUMN'
 
-HOW USE THIS REPO?
+HOW DO YOU USE THIS REPO?
 
 In order to use this repo on your own machine, you will need:
 - `jupiter notebooks`
