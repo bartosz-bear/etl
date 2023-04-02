@@ -1,4 +1,4 @@
-# ETL - Financial Data Clean-Up Script
+# ETL - Financial Data Preparation Script
 
 This is an ETL script which reads data from three financial tables: clients, transfers and counties. Set size: over 1 million transfers.
 
@@ -27,7 +27,7 @@ INTERESTING PROBLEMS
 
 The most interesting problems which arose in this set were:
 - 5000 missing 'account_id' values in 'transfers' table
-- 180000 missing tags in 'OPERATION' column of the 'transfers' table
+- 180k missing tags in 'OPERATION' column of the 'transfers' table
 
 These problems were solves using homogenuity test and applying domain knowledge about credit/debit convention in financial transfers data. Details of these solutions can be found in the following paragraphs of the jupiter notebook:
 - 'CHECK FOR MISSING VALUES IN ACCOUNT_ID'
